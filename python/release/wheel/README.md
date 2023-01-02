@@ -1,17 +1,3 @@
-Description
-------------------------------
-This directory is used to build released wheels according to PEP513 and upload
-them to pypi.
-
-Usage
-------------------------------
-For example, to release 3.3.0:
-    ./protobuf_optimized_pip.sh 3.3.0 PYPI_USERNAME PYPI_PASSWORD
-
-Structure
-------------------------------
-| Source                    | Source                                                       |
-|--------------------------------------|---------------------------------------------------|
-| protobuf_optimized_pip.sh | Entry point. Calling Dockerfile and build_wheel_manylinux.sh |
-| Dockerfile                | Build docker image according to PEP513.                      |
-| build_wheel_manylinux.sh  | Build wheel packages in the docker container.                |
+version https://git-lfs.github.com/spec/v1
+oid sha256:eeba014130a2207e9b15554a4fed41645e11f21b09cde39376dadd56aef62baf
+size 778

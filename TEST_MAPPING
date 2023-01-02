@@ -1,7 +1,3 @@
-{
-  "presubmit": [
-    {
-      "name": "libprotobuf_vendor_suffix_test"
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2f5798d20f1c9724a3e28d07b38a7a8120fba61c41e27234529082e054e79c52
+size 84

@@ -1,13 +1,3 @@
-genrule(
-  name = "copy_six",
-  srcs = ["six-1.10.0/six.py"],
-  outs = ["six.py"],
-  cmd = "cp $< $(@)",
-)
-
-py_library(
-  name = "six",
-  srcs = ["six.py"],
-  srcs_version = "PY2AND3",
-  visibility = ["//visibility:public"],
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:b8236dd7f006b3c09ad77cac5ddaeb3aec262dac1158b49b324d2c0c4ba4dbef
+size 227
